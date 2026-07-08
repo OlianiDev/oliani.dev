@@ -39,3 +39,52 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE / Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Arquivos temporários
+.cache/
+.temp/
+tmp/
+*.tmp
+
+# Credenciais e secrets (NUNCA commitar)
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+
+# Google Search Console / Analytics
+google-site-verification.txt
+gc-verification-token.txt
+
+# Deploy temporário
+.cache-build/
+dist-prod/
+
+# IDE do Next.js (WebStorm, etc)
+.next/
+out/
