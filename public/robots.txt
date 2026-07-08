@@ -1,0 +1,20 @@
+# Robots.txt for oliani.dev
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay for all bots (in seconds)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://oliani.dev/sitemap.xml
